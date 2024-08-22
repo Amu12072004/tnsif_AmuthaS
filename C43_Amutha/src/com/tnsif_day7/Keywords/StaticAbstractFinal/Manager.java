@@ -7,7 +7,7 @@ final  class Demo {// final class
 		// name="Amu"; cant change once u declare
 	}
 }
-class value{
+class value {
 	void voice() {
 		System.out.println("mike");
 	}
@@ -20,7 +20,6 @@ class value1 extends value{
 	public class Manager{
 			public static void main(String args[]) {
 				value1 obj=new value1();
-				
 			obj.disp();
 			
 
