@@ -1,9 +1,11 @@
-package com.tnsif_day3.oops;
+package com.tnsif_day8.Polymorphism;
 
-public class Encapsulation {
-	public String name; // data member &instance variable
-	public int age;
-	public String dept;
+import com.tnsif_day3.oops.Encapsulation;
+
+public class overriding {
+	String name; // data member &instance variable
+	int age;
+	String dept;
 	public String getName() { //naming convension 
 		return name;
 	}
@@ -38,4 +40,3 @@ public class Encapsulation {
 	System.out.println(obj.dept);
 	}
 }
-
