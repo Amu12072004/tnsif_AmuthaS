@@ -4,14 +4,14 @@ public class WrapperClasses {
 			// Unboxing
 			Integer i = new Integer(10);
 			System.out.println(i);
-			int b = i.intValue();
+			int b = i.intValue();//predefine method 
 			System.out.println(b);
 
 			// Without using intValue()
 			int c = i;
 			System.out.println(c);
 			
-			//Autoboxing
+			//Autoboxing-converting implicity
 			int a = 100;
 			Integer i1 = a;
 			System.out.println(i1);
